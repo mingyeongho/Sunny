@@ -1,4 +1,5 @@
 import { Header } from "@/_widgets";
+import { Main, MainWrapper } from "./main.style";
 
 const MainLayout = ({
   children,
@@ -8,7 +9,9 @@ const MainLayout = ({
   return (
     <>
       <Header />
-      <main>{children}</main>
+      <MainWrapper>
+        <Main>{children}</Main>
+      </MainWrapper>
     </>
   );
 };
