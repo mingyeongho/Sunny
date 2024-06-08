@@ -6,8 +6,7 @@ import styled from "@emotion/styled";
 export const Header = styled.header`
   width: 100%;
   height: 60px;
-  background-color: white;
-  background-color: ${theme.colors.white};
+  background-color: ${theme.colors.ivory100};
 
   display: flex;
   justify-content: center;
@@ -17,7 +16,7 @@ export const Header = styled.header`
 
 export const Container = styled.div`
   width: 100%;
-  max-width: 1024px;
+  ${theme.maxWidth};
   height: 100%;
   display: flex;
   justify-content: space-between;

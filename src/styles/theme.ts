@@ -1,3 +1,5 @@
+import { css } from "@emotion/react";
+
 const colors = {
   white: "#fff",
   black: "#222",
@@ -5,9 +7,15 @@ const colors = {
   // accent
   primary: "#EA3A36",
   secondary: "#F27D2C",
+
+  ivory100: "#e8e7d5",
 };
 
-const theme = { colors };
+const maxWidth = css`
+  max-width: 1024px;
+`;
+
+const theme = { colors, maxWidth };
 
 export default theme;
 
