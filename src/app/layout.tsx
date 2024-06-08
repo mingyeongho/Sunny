@@ -8,7 +8,7 @@ const notoSansKr = Noto_Sans_KR({
 });
 
 export const metadata: Metadata = {
-  title: "Sunny",
+  title: { default: "Home | Sunny", template: "%s | Sunny" },
   description: "화창한 날씨를 만나보세요.",
 };
 
